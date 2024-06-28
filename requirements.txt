@@ -1,3 +1,5 @@
 streamlit
 pandas
 markupsafe
+matplotlib
+seaborn
