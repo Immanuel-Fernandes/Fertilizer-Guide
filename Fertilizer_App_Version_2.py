@@ -6,14 +6,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from markupsafe import Markup
 
-# Add custom CSS to hide the GitHub icon
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
-
 # Fertilizer dictionary
 fertilizer_dic = {
     'NHigh': """<b>The Nitrogen Level of your soil is high and might give rise to weeds.</b>
