@@ -71,6 +71,14 @@ fertilizer_dic = {
 # Title
 st.title('Fertilizer Guide')
 
+# Add custom CSS to hide the GitHub icon
+hide_github_icon = """
+#GithubIcon {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # Form for user input
 crop_name = st.selectbox('Crop you want to grow', [
     'Select crop', 'Rice', 'Maize', 'Chickpea', 'Kidneybeans', 'Pigeonpeas',
